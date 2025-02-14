@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background: #f4f4f4;
+    background-image: url('./close-up-natural-grass_23-2148858152.jpg');
+    background-size: cover;
+    height: 100%;
+}
+
+.profile-container {
+    width: 60%;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    border: 2px solid #b0bec5;
+    background-size: cover;
+    background-position: center;
+}
+
+.cover-photo {
+    background: url('./field-with-dark-clouds_1160-881.jpg') no-repeat center center;
+    background-size: cover;
+    height: 220px;
+    border-bottom: 2px solid #8bc34a;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    gap: 25px;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.profile-image {
+    width: 140px;
+    height: 140px;
+    background-image: url('./portrait-young-man-wearing-hat-looking-camera-sitting-grass_23-2148203071.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.profile-details {
+    flex: 1;
+}
+
+.profile-actions button {
+    margin-right: 12px;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    font-size: 16px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.follow-btn {
+    background: linear-gradient(to right, #8bc34a, #558b2f);
+    color: #fff;
+}
+
+.follow-btn:hover {
+    background: linear-gradient(to right, #7cb342, #33691e);
+}
+
+.message-btn {
+    background: linear-gradient(to right, #8bc34a, #558b2f);
+    color: #fff;
+}
+
+.message-btn:hover {
+    background: linear-gradient(to right, #7cb342, #33691e);
+    color: #fff;
+}
+
+.more-btn {
+    background: linear-gradient(to right, #e0e0e0, #bdbdbd);
+    color: #333;
+}
+
+.more-btn:hover {
+    background: linear-gradient(to right, #d5d5d5, #9e9e9e);
+}
+
+.profile-body {
+    padding: 30px;
+    background: #fff;
+}
+
+.profile-body h2 {
+    border-bottom: 3px solid #8bc34a;
+    padding-bottom: 10px;
+    color: #2e7d32;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.profile-body ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.profile-body ul li {
+    background: linear-gradient(to right, #f1f8e9, #c5e1a5);
+    margin: 10px 0;
+    padding: 14px;
+    border-radius: 10px;
+    border: 1px solid #a5d6a7;
+    transition: all 0.3s ease;
+    font-size: 18px;
+    font-weight: 500;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.profile-body ul li:hover {
+    background: linear-gradient(to right, #e8f5e9, #a5d6a7);
+    transform: scale(1.02);
+}
